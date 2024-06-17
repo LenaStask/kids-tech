@@ -1,0 +1,18 @@
+@import "../../colors.scss";
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 18px;
+  box-shadow: 0 10px 13px -4px $shadow-color;
+
+  .image {
+    border-radius: 18px 18px 0 0;
+    text-align: center;
+    padding: 8px;
+  }
+
+  .title {
+    padding: 12px 18px 18px 18px;
+  }
+}
